@@ -1,0 +1,58 @@
+#content {
+  position: relative;
+  width: 78%;
+  left: 22%;
+  padding-top: 50px;
+
+  .blog-content {
+    display: inline-block;
+    vertical-align:top;
+    width: 90%;
+    margin-left: 50px;
+
+    .blog-title {
+      position: relative;
+      // margin-bottom: 30px;
+      background-color: #fff;
+      padding: 15px;
+
+      .time-div {
+        position: relative;
+        height: 20px;
+
+        .glyphicon {
+          position: absolute;
+          right: 105px;
+        }
+
+        .time-span {
+          position: absolute;
+          right: 28px;
+        }
+      }
+
+      .title-div {
+        .title-span {
+          font-size: 26px;
+        }
+      }
+
+      .tag-divs {
+        position: relative;
+        top: 10px;
+        border-top: 1px solid #000;
+
+        .tag-div {
+          display: inline-block;
+          margin-left: 6px;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .blog-detail-content {
+      background-color: #fff;
+      padding: 30px;
+    }
+  }
+}

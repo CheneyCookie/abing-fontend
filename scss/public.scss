@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebf1f5;
+
+  a {
+    color: #4d4a4a;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(158, 190, 180);
+  }
+
+  #header {
+    position: fixed;
+    width: 22%;
+    height: 100%;
+
+    .self-header {
+      height: 100%;
+      background-color: rgb(216, 241, 216);
+
+      .head-portrait {
+        position: relative;
+        top: 50px;
+        a {
+          position: relative;
+          left: 59px;
+
+          img {
+            width: 170px;
+            height: 205px;
+          }
+
+          img:hover {
+            border: 1px solid rgb(158, 190, 180);
+          }
+        }
+      }
+
+      .name-div {
+        position: relative;
+        top: 60px;
+        a {
+          position: relative;
+          left: 65px;
+          .name-span {
+            font-size: 26px;
+          }
+        }
+      }
+
+      .signature-div {
+        position: relative;
+        top: 75px;
+        text-align: center;
+        span {
+          color: rgb(206, 177, 177);
+        }
+      }
+    }
+  }
+
+  #footer {
+    position: relative;
+    width: 78%;
+    left: 22%;
+    margin-top: 30px;
+    height: 100px;
+    // background-color: #fff;
+
+    .self-footer {
+      span {
+        position: relative;
+        left: 40px;
+      }
+    }
+  }
+
+  #content {
+    position: relative;
+    width: 78%;
+    left: 22%;
+    padding-top: 50px;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.loading-div {
+  position: fixed;
+  background-color: #c5c9c2;
+  left: 22%;
+  top: 0px;
+  width: 78%;
+  height: 100%;
+  z-index: 10002;
+  opacity: 0.5;
+
+  img {
+    position: relative;
+    left: 500px;
+    top: 250px;
+    width: 30px;
+    height: 30px;
+  }
+}

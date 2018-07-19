@@ -1,0 +1,23 @@
+{
+  "name": "abing",
+  "description": "abing fontend",
+  "main": "",
+  "authors": [
+    "cheneychen"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1"
+  },
+  "dependencies": {
+    "wangEditor": "^3.1.1"
+  }
+}

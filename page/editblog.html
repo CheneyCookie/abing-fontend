@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/css/public.css">
+  <link rel="stylesheet" href="/css/editblog.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="header"></div>
+  <div id="content">
+    <div class="blog-title-title">
+      <span>标题: </span>
+      <input id="blogTitle" type="text">
+    </div>
+    <div class="editor-div">
+      <div id="div1" class="toolbar">
+      </div>
+      <div style="padding: 5px 0; color: #ccc"></div>
+      <div id="div2" class="text"> <!--可使用 min-height 实现编辑区域自动增加高度-->
+      </div>
+      <div class="btn-div">
+        <button class="btn btn-info btn-update">修改</button>
+        <button class="btn btn-info btn-save">保存</button>
+      </div>
+    </div>
+    <div class="select-tag-div hidden">
+      <div class="title-div">
+        <span>选择标签</span>
+      </div>
+      <div class="tags-div">
+        <ul class="tag-ul">
+          <li>
+            <div class="create-tag" id="createTag">
+              <span class="glyphicon glyphicon-plus add" id="add"></span>
+              <input class="edit-tag-input hidden" type="text" name="" id="addInput">
+              <span class="tag-error-tip hidden" id="tagErrorTip">已存在</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="confirm-div">
+        <button class="btn btn-warning" id="cancelSave">取消</button>
+        <button class="btn btn-primary" id="confirmSave">确定</button>
+      </div>
+    </div>
+  </div>
+  <div class="loading-div hidden">
+    <img src="/image/loading.gif">
+  </div>
+  <div class="tag-div"></div>
+  <div id="footer"></div>
+</body>
+</html>
+<script type="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/lib/wangEditor/release/wangEditor.min.js"></script>
+<script type="text/javascript" src="/js/public.js"></script>
+<script type="text/javascript" src="/js/editblog.js"></script>
