@@ -17,17 +17,10 @@
       padding: 15px;
 
       .time-div {
-        position: relative;
-        height: 20px;
+        padding-left: 87%;
 
         .glyphicon {
-          position: absolute;
-          right: 105px;
-        }
-
-        .time-span {
-          position: absolute;
-          right: 38px;
+          margin-right: 6px;
         }
       }
 
